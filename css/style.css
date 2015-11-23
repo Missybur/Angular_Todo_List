@@ -6,6 +6,10 @@ background-color:#708090;
 background-size: 64px 128px
 }
 
+h1 {
+  /*color: white;*/
+}
+
 body {
   color: #2d3339;
   font-family: "Varela Round";
