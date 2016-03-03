@@ -1,8 +1,8 @@
 [
-  {"name": "clean the house"},
-  {"name": "do the laundry"},
-  {"name": "go to post office"},
-  {"name": "walk the dog"},
-  {"name": "iron"}
-
+    {"name": "workout"},
+    {"name": "pay bills"},
+    {"name": "water flowers"},
+    {"name": "mail a letter"},
+    {"name": "lunch with friend"},
+    {"name": "swim"}
   ]

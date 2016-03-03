@@ -1,34 +1,27 @@
 body {
-  background:
-linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
-background-color:#708090;
-background-size: 64px 128px
-}
-
-h1 {
-  /*color: white;*/
-}
-
-body {
-  color: #2d3339;
+  color: #89bdd3;
   font-family: "Varela Round";
   text-align: center;
-  /*background: #edeff0;*/
+  background: #edeff0;
   font-size: 16px; }
 
 a {
-  color: #3f8abf;
+  color: #89bdd3;
   text-decoration: none; }
   a:hover {
     color: #65a1cc; }
 
+h1 {
+  color: #89bdd3;
+  padding-top: 40px;
+}
+
 .list {
-  background: #fff;
+  background: #c0dfd9;
   width: 80%;
   min-width: 500px;
   margin: 80px auto 0;
-  border-top: 40px solid #5a6772;
+  border-top: 40px solid #9ad3de;
   text-align: left; }
   .list .item {
     border-bottom: 2px solid #edeff0;
@@ -48,11 +41,11 @@ a {
       float: right;
       margin-right: 20px; }
       .list .item .actions .delete {
-        color: #ed5a5a;
+        color: #3b3a36;
         margin-left: 10px; }
         .list .item .actions .delete:hover {
           color: #f28888; }
-    .list .item.editing .actions {
+    .list .item.editing-item .actions {
       margin-top: 17px; }
   .list .edited label:after {
     content: " edited";
@@ -65,7 +58,7 @@ a {
     text-decoration: line-through; }
   .list .add {
     padding: 25px 0 27px 25px; }
-/*
+
 input[type="checkbox"] {
     display:none;
 }
@@ -80,4 +73,4 @@ input[type="checkbox"] + span {
 }
 input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
-}*/
+}
